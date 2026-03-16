@@ -98,3 +98,6 @@ server.listen(PORT, () => {
 // Fragmento (hash / anchor): Es una referencia interna dentro del recurso (ej: saltar a una sección de la página).
 //   No se envía al servidor → solo lo interpreta el navegador.
 //   Sirve para apuntar a una parte específica dentro de un documento (por ejemplo, un encabezado en una página HTML).
+
+//* http://localhost:3000/personajes/3
+//* http://localhost:3000/personajes/3?page=1
